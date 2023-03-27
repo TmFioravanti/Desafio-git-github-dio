@@ -1,0 +1,65 @@
+///
+comand lines interface GIT:
+
+tab tem a função de autocomplete
+
+LISTAR PASTAS: dir OU ls
+
+NAVEGAR ENTREPASTAS: cd nomedapasta PARA ENTRAR NA PASTA, PARA VOLTAR/RETROCEDER É  cd..
+
+LIMPAR TELA: cls OU clear ou ctrl+l
+
+CRIAR PASTAS: mkdir nomedapasta
+
+CRIAR ARQUIVOS:
+
+DELETAR PASTAS: rmdir
+
+DELETAR ARQUIVOS:del   nomedapastaouarquivo(se passar o nome da pasta deleta todos os arquivos dentro, mas nao deleta o repositório/pasta)
+
+///
+
+///
+modificação de arquivo
+openss1 sha1 nomedoarquivo.txt(serve para objetos internos do GIT)
+///
+
+///
+	
+iniciar um repositorio no git
+
+git init
+
+git add
+
+git commit
+
+ls -a MOSTRA ARQUIVOS OCULTOS
+
+git status MOSTRA O STATUS DO QUE FOI MODIFICADO E ADICIOBNADO PARA INBICIAR O COMMIT
+
+COMO MODIFICAR USERNAME E EMAIL
+git config --global --unset user.email
+
+git config --global --unset user.name
+
+ADICIONANDO
+git config --global user.email "email@email.com"
+
+git config --global user.name "NameName"
+
+CONSULTAR CONFIGURAÇÃO
+
+git config --list
+
+
+
+
+
+
+
+
+
+
+
+
